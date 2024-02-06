@@ -135,7 +135,9 @@ void afficherFilmographieActeur(const ListeFilms& listeFilms, const string& nomA
 	else
 		afficherListeFilms(acteur->joueDans);
 }
-
+void test1() {
+	int a = 0;
+}
 int main()
 {
 	bibliotheque_cours::activerCouleursAnsi();  // Permet sous Windows les "ANSI escape code" pour changer de couleurs https://en.wikipedia.org/wiki/ANSI_escape_code ; les consoles Linux/Mac les supportent normalement par défaut.
