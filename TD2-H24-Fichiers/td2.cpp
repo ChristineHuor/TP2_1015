@@ -217,7 +217,7 @@ void afficherFilmographieActeur(ListeFilms& listeFilms, const string& nomActeur)
 	//TODO: Utiliser votre fonction pour trouver l'acteur (au lieu de le mettre à nullptr).
 	const Acteur* acteur = trouverActeur(nomActeur, listeFilms);
 	if (acteur == nullptr) {
-		cout << "Aucun acteur de ce nom" << endl;
+		cout << "Il n'y a pas d'acteur ayant ce nom." << endl;
 	} else
 		afficherListeFilms(acteur->joueDans);
 }
